@@ -4,6 +4,21 @@ date: "2015-05-01T22:12:03.284Z"
 description: "Hello World"
 ---
 
+Key takeaways from Ludumdare 53:
+
+- Even bad theme can produce good idea
+- Unity is unusable for iterative development due to frequent "Reload script assemblies"
+
+
+## Reload script assemblies
+
+Honestly, it was such a headache. I spent around three hours just watching the "Reload Script Assemblies" load bar. 
+It kept popping up every time I made changes to the script or pressed the play button, which was incredibly frustrating.
+
+I read several posts on how to make the "Reload Script Assemblies" load bar go away or run faster, but none of the suggestions worked. 
+After spending the half of a day troubleshooting the issue, I decided to try using Unity 2022, even though I wasn't very optimistic about it solving the problem.
+
+
 This is my first post on my new fake blog! How exciting!
 
 I'm sure I'll write a lot more interesting things in the future.
