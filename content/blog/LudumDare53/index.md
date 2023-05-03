@@ -1,246 +1,51 @@
 ---
-title: Hello World
-date: "2015-05-01T22:12:03.284Z"
-description: "Hello World"
+title: LudumDare53
+date: "2023-05-03T08:00:00.000Z"
+description: "Notes from taking a LudumDare53"
 ---
 
-Key takeaways from Ludumdare 53:
+## Basic idea
 
-- Even bad theme can produce good idea
-- Unity is unusable for iterative development due to frequent "Reload script assemblies"
+The Ludumdare starts at 3 am. In the past, I would have said that it's a normal hour for me since I used to wake up early to ease my transition into the IT world. However, that's not the case anymore. I aim to sleep until 5 or 6 am nowadays, but my old habits sometimes kick in and I end up waking up earlier. This was the case when the Ludumdare began at 3 am, and I found myself eagerly awaiting the theme. As soon as "Delivery" was announced, an idea struck me almost instantly - something that had never happened in previous game jams. It was partly due to the fact that I came up with the basic idea while I had been working on a game concept that I hope to one day play at a LAN party I attend annually.
 
+![basic idea](./idea.png)
 
-## Reload script assemblies
 
-Honestly, it was such a headache. I spent around three hours just watching the "Reload Script Assemblies" load bar. 
-It kept popping up every time I made changes to the script or pressed the play button, which was incredibly frustrating.
+The idea behind this game was to create a challenging experience where players must switch positions around a circle with other competitors while avoiding environmental hazards and enemy attacks, all while trying to collect as many sponsor gifts as possible.
 
-I read several posts on how to make the "Reload Script Assemblies" load bar go away or run faster, but none of the suggestions worked. 
-After spending the half of a day troubleshooting the issue, I decided to try using Unity 2022, even though I wasn't very optimistic about it solving the problem.
+## First day
 
+At the beginning of the first day, everything went quite well. Since I had managed to come up with a simple game idea this time and had also prepared a boilerplate for the game jam, the basic game was created quite fast. But then it started. First of all, Unity, for some reason, started "Reloading script assemblies" for almost 45 seconds after I edited some lines in Visual Studio, and then another 45 seconds when I pressed play. This really irritated me, so I went to Google to search for a solution. It cost me a great deal of time, but at the end of the day, I downloaded Unity 2022, and it fixed the issue.
 
-This is my first post on my new fake blog! How exciting!
+## Second day
 
-I'm sure I'll write a lot more interesting things in the future.
+During the second day, I spent a lot of time playing the game. Thing that bugged me was how to present all the information to the player. I always struggle with UI design, so it was a challenge for me. However, by the end of the day, I had come up with a plausible way to present the information (option a) and finally went to sleep.
 
-Oh, and here's a great quote from this Wikipedia on
-[salted duck eggs](https://en.wikipedia.org/wiki/Salted_duck_egg).
+![optionA](./optionA.png) ![optionB](./optionB.png)
 
-> A salted duck egg is a Chinese preserved food product made by soaking duck
-> eggs in brine, or packing each egg in damp, salted charcoal. In Asian
-> supermarkets, these eggs are sometimes sold covered in a thick layer of salted
-> charcoal paste. The eggs may also be sold with the salted paste removed,
-> wrapped in plastic, and vacuum packed. From the salt curing process, the
-> salted duck eggs have a briny aroma, a gelatin-like egg white and a
-> firm-textured, round yolk that is bright orange-red in color.
+And that was pretty much the end of the second day.
 
-![Chinese Salty Egg](./salty_egg.jpg)
+## Third day
 
-You can also write code blocks here!
+Third day consited of three things:
 
-```js
-const saltyDuckEgg = "chinese preserved food product"
-```
+* trying to get LootLocker working for a leaderboard
+* fixing bugs
+* IFStein
 
-| Number | Title                                    | Year |
-| :----- | :--------------------------------------- | ---: |
-| 1      | Harry Potter and the Philosopher’s Stone | 2001 |
-| 2      | Harry Potter and the Chamber of Secrets  | 2002 |
-| 3      | Harry Potter and the Prisoner of Azkaban | 2004 |
+As for the leaderboard, it was already part of my boilerplate, so I just had to refresh my memory on how it works. However, this task still took me a few hours. I wanted to make sure it was working correctly, especially since I was worried it might not work on WebGL. Thankfully, it worked fine, at least until the final version.
 
-[View raw (TEST.md)](https://raw.github.com/adamschwartz/github-markdown-kitchen-sink/master/README.md)
+As for the bugs I noticed that many of the issues were caused by my decision to use a spaghetti code style and cram everything into a few classes. Despite the extra effort required to fix the bugs, I believe the end result was worth it in terms of simplified code and improved speed of prototyping which I think is important in Ludumdare.
 
-This is a paragraph.
+As for the few classes here are the most important once:
 
-    This is a paragraph.
+*Unit
+** As the name suggests, this class represents the playable unit in the game. It can perform actions such as attacking, defending, taking damage, moving, or cooling down.
+*Seat
+** A seat at the table, this class doesn't have much logic beyond checking its state, such as "Is it under attack?" or "Is it being moved into?" Most of the code was added to support AI later on.
+*Table
+** This class does pretty much everything. It's called "Table" because in the original idea, the game was about knights and magicians sitting around a table. The class generates units, seats, and sponsors, and also receives requests to attack, defend, or switch with a seat.
 
-# Header 1
+And before the sun went down, I was working on the AI using an approach we use at work to program for e-commerce businesses, which involves a bunch of conditional statements (IFs).
 
-## Header 2
-
-    Header 1
-    ========
-
-    Header 2
-    --------
-
-# Header 1
-
-## Header 2
-
-### Header 3
-
-#### Header 4
-
-##### Header 5
-
-###### Header 6
-
-    # Header 1
-    ## Header 2
-    ### Header 3
-    #### Header 4
-    ##### Header 5
-    ###### Header 6
-
-# Header 1
-
-## Header 2
-
-### Header 3
-
-#### Header 4
-
-##### Header 5
-
-###### Header 6
-
-    # Header 1 #
-    ## Header 2 ##
-    ### Header 3 ###
-    #### Header 4 ####
-    ##### Header 5 #####
-    ###### Header 6 ######
-
-> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
-
-    > Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
-
-> ## This is a header.
->
-> 1. This is the first list item.
-> 2. This is the second list item.
->
-> Here's some example code:
->
->     Markdown.generate();
-
-    > ## This is a header.
-    > 1. This is the first list item.
-    > 2. This is the second list item.
-    >
-    > Here's some example code:
-    >
-    >     Markdown.generate();
-
-- Red
-- Green
-- Blue
-
-* Red
-* Green
-* Blue
-
-- Red
-- Green
-- Blue
-
-```markdown
-- Red
-- Green
-- Blue
-
-* Red
-* Green
-* Blue
-
-- Red
-- Green
-- Blue
-```
-
-- `code goes` here in this line
-- **bold** goes here
-
-```markdown
-- `code goes` here in this line
-- **bold** goes here
-```
-
-1. Buy flour and salt
-1. Mix together with water
-1. Bake
-
-```markdown
-1. Buy flour and salt
-1. Mix together with water
-1. Bake
-```
-
-1. `code goes` here in this line
-1. **bold** goes here
-
-```markdown
-1. `code goes` here in this line
-1. **bold** goes here
-```
-
-Paragraph:
-
-    Code
-
-<!-- -->
-
-    Paragraph:
-
-        Code
-
----
-
----
-
----
-
----
-
----
-
-    * * *
-
-    ***
-
-    *****
-
-    - - -
-
-    ---------------------------------------
-
-This is [an example](http://example.com "Example") link.
-
-[This link](http://example.com) has no title attr.
-
-This is [an example][id] reference-style link.
-
-[id]: http://example.com "Optional Title"
-
-    This is [an example](http://example.com "Example") link.
-
-    [This link](http://example.com) has no title attr.
-
-    This is [an example] [id] reference-style link.
-
-    [id]: http://example.com "Optional Title"
-
-_single asterisks_
-
-_single underscores_
-
-**double asterisks**
-
-**double underscores**
-
-    *single asterisks*
-
-    _single underscores_
-
-    **double asterisks**
-
-    __double underscores__
-
-This paragraph has some `code` in it.
-
-    This paragraph has some `code` in it.
-
-![Alt Text](https://via.placeholder.com/200x50 "Image Title")
-
-    ![Alt Text](https://via.placeholder.com/200x50 "Image Title")
+![RambIF](./rambo.png)
