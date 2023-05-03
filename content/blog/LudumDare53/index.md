@@ -39,11 +39,11 @@ Bugs, oh bugs. I noticed that many of the bugs were caused by my decision to use
 
 Here are the most important classes:
 
-*Unit
+* Unit
 ** As the name suggests, this class represents the playable unit in the game. It can perform actions such as attacking, defending, taking damage, moving, or cooling down.
-*Seat
+* Seat
 ** A seat at the table, this class doesn't have much logic beyond checking its state, such as "Is it under attack?" or "Is it being moved into?" Most of the code was added to support AI later on.
-*Table
+* Table
 ** This class does pretty much everything. It's called "Table" because in the original idea, the game was about knights and magicians sitting around a table. The class generates units, seats, and sponsors, and also receives requests to attack, defend, or switch with a seat.
 
 And before the sun went down, I was working on the AI using an approach we use at work to program for e-commerce businesses, which involves a bunch of conditional statements (IFs).
