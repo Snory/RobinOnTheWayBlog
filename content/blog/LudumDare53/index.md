@@ -35,9 +35,9 @@ Third day consited of three things:
 
 As for the leaderboard, it was already part of my boilerplate, so I just had to refresh my memory on how it works. However, this task still took me a few hours. I wanted to make sure it was working correctly, especially since I was worried it might not work on WebGL. Thankfully, it worked fine, at least until the final version.
 
-As for the bugs I noticed that many of the issues were caused by my decision to use a spaghetti code style and cram everything into a few classes. Despite the extra effort required to fix the bugs, I believe the end result was worth it in terms of simplified code and improved speed of prototyping which I think is important in Ludumdare.
+Bugs, oh bugs. I noticed that many of the bugs were caused by my decision to use a spaghetti code style and cram everything into a few classes. Despite the extra effort required to fix the bugs, I believe the end result was worth it in terms of simplified code and improved speed of prototyping which I think is important in Ludumdare.
 
-As for the few classes here are the most important once:
+Here are the most important classes:
 
 *Unit
 ** As the name suggests, this class represents the playable unit in the game. It can perform actions such as attacking, defending, taking damage, moving, or cooling down.
