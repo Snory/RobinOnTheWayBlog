@@ -5,9 +5,10 @@ description: "in other words how to prepare for a course on game design"
 ---
 
 
-I signed up for a [course](https://skvt.cz/course/122-game-design-pro-zacatecniky "course"). As a way to prepare, 
+I signed up for a [course](https://skvt.cz/course/122-game-design-pro-zacatecniky "course") and as a way to prepare, 
 I have challenged myself to come up with an idea each day starting from May 9th until June 9th. 
 
+I will focus on the "base layer," as stated in the book "The Pyramid of Game Design" by Nicholas Lovell, because I believe it creates the core of a game. I think Keith Burgun, who wrote "Game Design Theory," shares this view because his book suggests that a game is also the base layer - something that is infinitely repeatable and can last forever.
 
 I will continuously update this blog as time goes on. :)
 
@@ -30,3 +31,31 @@ Anyway, I was thinking about a game where you have 100 points to move. If you mo
 There would be 8 possible directions to choose from by moving left or right, and each direction presents different choices that can either hinder your progress or push you forward faster. Sometimes, there could be locked doors that require a key to open. To acquire the key, you would need to go backwards and try different directions. Once you have the key, you would need to go backwards again to reach the locked door. Or something like that!
 
 ![2](./2.png "Progress will make you weaker")
+
+### You are the final boss
+
+Oh my, the theme generator reminds me of the themes from the Ludum Dare game jam. 
+
+Anyway, I believe this idea came to my mind because we were playing "Sleeping Gods" by Ryan Laukat. There was a fighting system in the game that took place on a 4x4 grid. Some tiles on the grid represented the health of the monster, some represented its additional attack, and so on.
+
+The game I came up with also happens on the grid, not sure how big the grid would be, but it can vary probably based on the difficulty of the game. The game is repeating in cycle of 4 steps:
+
+**While tiles are hidden**
+1. Select where to attack (mostly AOE spells)
+
+**Show tiles**
+
+2. Units which are hit by selected attacks from first step receive dmg
+3. What survived returns damage to the boss (therefore you)
+
+**Hide tiles**
+
+4. Move units by some predictable movement, so player can anticipated where the units will be
+
+**Repeat**
+
+I can already envision a pre-event screen where the player chooses which attacks they would like to use in the next session, as well as a post-event screen where they can use the points they have acquired to buy or upgrade spells.
+
+![3](./3.png "You are the final boss")
+
+
