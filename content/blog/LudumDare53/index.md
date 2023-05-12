@@ -23,7 +23,6 @@ During the second day, I spent a lot of time playing the game. Thing that bugged
 
 ![optionA](./optionA.png) ![optionB](./optionB.png)
 
-And that was pretty much the end of the second day.
 
 ## Third day
 
