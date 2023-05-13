@@ -58,4 +58,21 @@ I can already envision a pre-event screen where the player chooses which attacks
 
 ![3](./3.png "You are the final boss")
 
+### World in the skies
+
+When I was playing "It takes two" with my all knowing partner, I found the most amusing part to be the fight against the toolbox boss. 
+The fight involved a lot of nails falling from the sky, and the game displayed the area of impact with a shadow. If the player was standing in the shadow for too long, they would get hit by the nail.
+
+Inspired by this boss fight, I thought about creating a simple game, but instead of nails, there would be trash coming from a city in the skies.
+
+Goal of the session would be to survive as long as possible. You could also collect the trash and build something which would help you in another rounds. :)
+
+![4](./4.png "World in the skies")
+
+### Everything falls apart
+
+I still did not come up with the template to help me come up quickly with the idea for a base layer of the game. Mostly because I did not even try, but
+I am not sure if it is even possible.
+
+Lets think, what the games above have in common? Apart of the world representation (grid, free movement circle) I think there isnt much of what they have in common.
 
