@@ -12,6 +12,11 @@ I will focus on the "base layer," as stated in the book "The Pyramid of Game Des
 
 I will continuously update this blog as time goes on. :)
 
+## Table of Contents
+
+```toc
+# This code block gets replaced with the TOC
+```
 
 ### Take one, leave the rest
 
