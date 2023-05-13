@@ -1,5 +1,5 @@
 ---
-title: 30 days game design challenge
+title: To 30 days game design challenge
 date: "2023-05-10T10:00:00.000Z"
 description: "in other words how to prepare for a course on game design"
 ---
