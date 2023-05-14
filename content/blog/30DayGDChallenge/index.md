@@ -76,8 +76,13 @@ Goal of the session would be to survive as long as possible. You could also coll
 
 ### Everything falls apart
 
-I still did not come up with the template to help me come up quickly with the idea for a base layer of the game. Mostly because I did not even try, but
-I am not sure if it is even possible.
+I still haven't come up with a template to help me quickly generate ideas for a base layer of a game. This is partly because I haven't tried, but also because I'm not sure if it's even possible, as the only thing these games seem to have in common is the decision about how the world will be represented.
 
-Lets think, what the games above have in common? Apart of the world representation (grid, free movement circle) I think there isnt much of what they have in common.
+Anyway, the idea I came up with for "Everything Falls Apart" is about a spaceship whose goal is to expand its religion to as many planets as possible, as far away as possible. As a player, you arrive on the ship after a few decades, so the ship is not what it used to be. Each trip takes its toll on the ship in the form of damage that you have to distribute throughout the ship. Each type of damage has its own consequences - damage to the shields will lower your defense, damage to the engines will lower your speed, so each trip will take longer and cause more harm to your ship during the journey. There would be other types of damage, such as to the life support systems, food stocks, modules, etc.
+
+Some planets or space stations would allow you to repair something, some would be there to convert to your religion, and others might give you a quest that would strengthen your belief in your own religion, or maybe even try to convert you to a different one if you fail.
+
+![5](./5.png "Everything falls apart")
+
+
 
