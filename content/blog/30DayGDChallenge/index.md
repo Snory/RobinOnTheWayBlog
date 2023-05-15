@@ -84,5 +84,17 @@ Some planets or space stations would allow you to repair something, some would b
 
 ![5](./5.png "Everything falls apart")
 
+### Dead is good
+
+This idea came to me while I was working out at the gym in the morning.
+
+I was pondering the superstition that people die if a cat lies on their bed in the hospital. To turn this concept into a game, I envisioned a maze-like structure inspired by gamebooks, where players always have choices on which path to take. The objective of the game would be to memorize the shortest route from one room to another, navigating through the maze efficiently.
+
+You are of course not a normal cat. You can walk between different realms by walking through the doors hence the possibility for infinite maze full of suprises and secrets. 
+
+And thats it, simple game. :)
+
+
+
 
 
