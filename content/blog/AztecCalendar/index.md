@@ -1,7 +1,7 @@
 ---
 title: To continue on LudumDare 53
 date: "2023-05-14T08:00:00.000Z"
-description: "aka my plan to finish at least one game"
+description: "aka my notes to desinging "Aztec calendar clash""
 ---
 
 I have had difficulty finishing my game projects in the past, as I often feel like they are missing something. This has led to a year-long hiatus from game development, but I am determined to break through this barrier. 
