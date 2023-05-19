@@ -94,7 +94,16 @@ You are of course not a normal cat. You can walk between different realms by wal
 
 And thats it, simple game. :)
 
+### One room
+
+This theme slowed me down for two days straight! I couldn't find that spark in my mind no matter how hard I tried. I even resorted to chatgpt for ideas, but as usual he only churned out some generic rubbish. But then my all-knowing partner went out with friends, and I had a little more time to think about it properly. Because I was chatting with a colleague on chat at the same time, who happens to be a music creator, I think it somehow ignited a spark and I was able to come up with something.
+
+The game is about a player being in a dark room created by hexagonal floor tiles. There is only light on the floor tile the player is currently standing on. In the dark, monsters are hidden. They only move when the player moves. If a monster moves to the same position as the player, it's game over. Now, what was the earlier mentioned spark all about? Well, I needed a way to indicate to the player where the monsters are. That's when I came up with the idea of assigning a unique tone to each tile, which will be played when a monster or player steps onto it. 
+
+To familiarize the player with the sounds and provide them with some moments of respite, I came up with the idea of implementing a day and night cycle in the game. The game will begin during the day cycle, allowing the player to freely explore the room and learn the different tones associated with each tile. However, when night falls, the player will have to face the monsters. As the nights progress, more monsters will be introduced, each with their own unique movement patterns reminiscent of chess pieces.
+
+The way you can kill the monster will be something generic like a light gun which you can fire in front of you or something like that. :)
 
 
-
+![6](./6.png "One room")
 
