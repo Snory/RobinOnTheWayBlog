@@ -26,4 +26,4 @@ As usual, I will continuously update this blog as time goes on. :)
 
 I spent around two and a half hours playing around with designs in Inkscape and then some time in Unity creating the light rays. There were numerous approaches I could have taken, but ultimately I decided to use particle effects. This choice not only achieved the desired effect of light rays but also added a dynamic element to the scene, giving it a nice touch of liveliness. Next goal is to create a character with 6-directional movement. I've found some inspiration on the internet that I'll use as a reference for the movement ratios. 
 
-![230](./1.png "After 2 hours and 30 minutes")
+![230](./230.png "After 2 hours and 30 minutes")
