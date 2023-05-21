@@ -104,6 +104,5 @@ To familiarize the player with the sounds and provide them with some moments of 
 
 The way you can kill the monster will be something generic like a light gun which you can fire in front of you or something like that. :)
 
-
 ![6](./6.png "One room")
 
