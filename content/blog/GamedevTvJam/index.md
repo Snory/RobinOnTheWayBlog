@@ -32,10 +32,11 @@ I spent around two and a half hours playing around with designs in Inkscape and 
 
 Seems like my attention span is only two hours and thirty minutes, good to know. Anyway, the original plan was to create a character with 6-directional movement. However, I realized that without knowing the "story behind" or the concept, I wasn't sure what to draw. Rather than spending too much time pondering over it, I decided to eat the frog first. So, I jumped right into generating the hex grid. I must say, [this] (https://www.redblobgames.com/grids/hexagons/ "this") article was a godsend and provided valuable guidance. I decided to use pointy top with axial coordinates as it will allow me to simply identify neighbors.
 
-![hexgridnotes](./(hexgridnotes.png "Notes from hexgrid generation")
+![hexgridnotes](./hexgridnotes.png "Notes from hexgrid generation")
 
 At first, I was contemplating generating just the grid in memory since it wasn't necessary for players to see it in order to play the game. However, I was curious about how to generate a visible hex grid, so I went ahead and implemented it anyway. 
 
-![hexgridnotes1](./(hexgridnotes1.png "Notes from finding wolrd position of hex tiles")
+![hexgridnotes1](./hexgridnotes1.png "Notes from finding wolrd position of hex tiles")
+
 
 I also made the decision to change the particle effects for the light because I have a slightly different vision for it. However, in order to achieve that, I will need to learn more about particle effects.
