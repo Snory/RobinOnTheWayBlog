@@ -1,12 +1,10 @@
 ---
-title: To 30 days game design challenge
+title: To create a game design idea list
 date: "2023-05-10T10:00:00.000Z"
-description: "in other words how to prepare for a course on game design"
+description: "in other words how to prepare for a game design course"
 ---
 
-
-I signed up for a [course](https://skvt.cz/course/122-game-design-pro-zacatecniky "course") and as a way to prepare, 
-I have challenged myself to come up with an idea each day starting from May 9th until June 9th. 
+I signed up for a [course](https://skvt.cz/course/122-game-design-pro-zacatecniky "course") and as a way to prepare, I challenged myself to come up with an idea each day starting from May 9th until June 9th. However, due to time constraints and my participation in a week-long game jam, this page has transformed from a challenge into a list of ideas that will evolve over time.
 
 I will focus on the "base layer," as stated in the book "The Pyramid of Game Design" by Nicholas Lovell, because I believe it creates the core of a game. I think Keith Burgun, who wrote "Game Design Theory," shares this view because his book suggests that a game is something that is infinitely repeatable and can last forever which is how I understand the "base layer". 
 
