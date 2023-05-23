@@ -51,7 +51,7 @@ While I was out shopping, an idea struck me. Instead of assigning a unique sound
 
 ![plana](./plana.png "Range with minimap")
 
-### Session 3 - 3:00 (9 in total)
+#### Session 3 - 3:00 (9 in total)
 
 I initially struggled with deciding how to move the hex grid in my game. I couldn't come up with a clear solution at first. Should the player be responsible for movement while the camera follows them, or should the grid itself handle the movement? Eventually, I settled on the idea of moving the grid itself. I am going to implement a system where each node on the grid has an assigned "occupant." When the grid moves, it triggers a method on each node to adjust its world position. If a node has an occupant, their position will also be aligned with the new world position of the node. I considered placing the occupant under the node in the hierarchy, but I then the child would also be scaled which is not something I want.
 
