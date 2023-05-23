@@ -55,7 +55,16 @@ While I was out shopping, an idea struck me. Instead of assigning a unique sound
 
 I initially struggled with deciding how to move the hex grid in my game. I couldn't come up with a clear solution at first. Should the player be responsible for movement while the camera follows them, or should the grid itself handle the movement? Eventually, I settled on the idea of moving the grid itself. I am going to implement a system where each node on the grid has an assigned "occupant." When the grid moves, it triggers a method on each node to adjust its world position. If a node has an occupant, their position will also be aligned with the new world position of the node. I considered placing the occupant under the node in the hierarchy, but I then the child would also be scaled which is not something I want.
 
+![movinggrid](./movinggrid.png "Notes from thinking about moving grid")
+
 After this initial struggle, I noticed that the movement was opposite along the Y-axis. It took me almost an hour and a half to realize that the problem lied in the Unity axis system, where Y is positive towards the top, while my algorithm assumed Y to be negative at the top. I considered correcting the algorithm to align with the Unity axis system, but instead, I decided to adjust the direction of movement to avoid messing with the algorithm itself.
 
 So, halfway through the allotted time, it feels like I haven't accomplished much at all. Next step is going to be show range of the "dimension hearing" after player is moved. 
 
+#### Session 4 - 0:30 (9:30 in total)
+
+I adjusted the algorithm for converting world positions to hexgrid positions to align it with Unity's Y-axis, where positive values point upward. This change helped prevent unnecessary headaches and improved the smoothness of navigation.
+
+![hextogrid](./hextogrid.png "Notes from converting world position to hex")
+
+The grid movement is now functional. In my next session, I plan to implement keyboard controls and work on the promised highlights for the current range of "dimension hearing". Additionally, I'm considering propagating the current neighboring nodes to the layer, allowing the "arrows" indicating possible directions to be toggled on/off when there are no available places to step on. 
