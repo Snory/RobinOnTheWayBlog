@@ -68,3 +68,19 @@ I adjusted the algorithm for converting world positions to hexgrid positions to 
 ![hextogrid](./hextogrid.png "Notes from converting world position to hex")
 
 The grid movement is now functional. In my next session, I plan to implement keyboard controls and work on the promised highlights for the current range of "dimension hearing". Additionally, I'm considering propagating the current neighboring nodes to the layer, allowing the "arrows" indicating possible directions to be toggled on/off when there are no available places to step on. 
+
+#### Session 5 - 1:30 (11:00 in total)
+
+I have successfully implemented the mechanism for highlighting nodes. However, I encountered an issue with the sorting order of the hex tiles during the process. The sprite, being in "3D", appears as stairs instead of a flat surface when not aligned properly. I will need to address this problem and ensure the tiles are correctly positioned for a seamless visual experience. 
+
+Boy, with only four days remaining until the end of the game jam, I have to start waking up at 3 am to put in some serious work.
+
+#### Session 6 - 1:00 (12:00 in total)
+
+Here comes the hero! While walking in nature with my all-knowing partner, we came across lily pads in the river. Suddenly, an idea struck me: "What if the hex tiles in the game are represented as lily pads and the main character is a frog?" And so, the story unfolds—a frog emerges from the pond, existing on the edge of two dimensions.
+
+Where there is a hero, there is hope.
+
+![lilipads](./lilipads.png "Lilipads") 
+
+And indeed, when you step on a lily pad, it can now produce a "delightful" sound, and the highlight functionality is working as well. Next session, I plan to focus on creating some enemies for the game.
