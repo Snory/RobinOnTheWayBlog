@@ -101,3 +101,10 @@ The frog, known as Kermit, was not an ordinary amphibian. He possessed the abili
 
 Kermit's responsibility was to ensure that no one from the alternate dimension crossed over into his realm through the enchanted pond. He knew that they were aware of his presence and would try to eliminate him before attempting to cross over. Determined to fulfill his duty, Kermit remained ever vigilant, perched on a large lilypad at the center of the pond.
 
+#### Session 8 - 1:00 (14:00 in total)
+
+I dedicated my efforts to implementing enemy movement. It's amusing how many times I have to remind myself of how the A* pathfinding algorithm works. But as it works with the "space force," I just watched the movie "Hidden Figures" today, and there was a moment when Catherine was trying to figure out how to bring the space shuttle from orbit to Earth. She had an idea, but in order to execute it, she had to run and find a book with the theory about it and calculate. Well, I bet she knew how to use it in the past but simply forgot because she does not use it very often. :)
+
+Anyway, the algorithm for finding the shortest path is complete. It may not be the most optimal, but since I don't plan to have large grids, it should suffice. In the next session, I'll focus on managing the state of the game. I have an idea to implement a session state system where, after the player moves, the state changes to "EnemyMovement." Once all the enemies have moved, the state will switch back to "PlayerMovement." Changing the state will trigger an event that will be received by interested entities, such as the player and enemies. In the "EnemyMovement" state, the enemies will search for their paths, and in the "PlayerMovement" state, the player's movement controls will be unlocked.
+
+
