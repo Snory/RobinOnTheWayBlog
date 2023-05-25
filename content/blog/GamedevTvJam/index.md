@@ -91,3 +91,13 @@ As promised, I have added monsters to the mix. They are now capable of generatin
 
 ![firstmonsters](./firstmonsters.png "First monsters") 
 
+#### The story
+
+I asked the chatgpt to write me a story about the game and here it is:
+
+Once upon a time, in a hidden cave deep within the heart of a mystical forest, there existed a unique pond. This pond was unlike any other, for it sat on the edge between two realms—the realm of light and the realm of darkness. Within this pond resided a solitary frog, whose duty was to guard the delicate balance between the two realms.
+
+The frog, known as Kermit, was not an ordinary amphibian. He possessed the ability to illuminate the pond whenever he touched a lily pad. However, only the lily pad he touched would shine, casting a soft glow in the otherwise pitch-black cave. The lilypads, connected to another dimension by their roots, each emitted a distinct tone when someone stepped on them in the alternate realm.
+
+Kermit's responsibility was to ensure that no one from the alternate dimension crossed over into his realm through the enchanted pond. He knew that they were aware of his presence and would try to eliminate him before attempting to cross over. Determined to fulfill his duty, Kermit remained ever vigilant, perched on a large lilypad at the center of the pond.
+
