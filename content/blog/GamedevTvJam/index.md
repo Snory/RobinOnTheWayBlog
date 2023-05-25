@@ -84,3 +84,10 @@ Where there is a hero, there is hope.
 ![lilipads](./lilipads.png "Lilipads") 
 
 And indeed, when you step on a lily pad, it can now produce a "delightful" sound, and the highlight functionality is working as well. Next session, I plan to focus on creating some enemies for the game.
+
+#### Session 7 - 1:00 (13:00 in total)
+
+As promised, I have added monsters to the mix. They are now capable of generating themselves on the "pond" and make their presence known by playing a "dimensional tone" assigned to the lily pad. The next step is to program the interaction between the player and the enemies. When the player moves and an enemy is within the highlighted range, the enemy should notify the player of its presence. This should be relatively straightforward since I have already assigned audio clips to highlighted lily pads. I just need to ensure that the "MonsterMover," as I call it, is aware of the player's movement. This will trigger the movement of the monsters and result in the corresponding audio clip being played.
+
+![firstmonsters](./firstmonsters.png "First monsters") 
+
