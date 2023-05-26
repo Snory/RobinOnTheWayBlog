@@ -22,7 +22,7 @@ As usual, I will continuously update this blog as time goes on. :)
 
 ### Timeline
 
-I will now share a breakdown of my work sessions, highlighting the duration of each session rather than specific hourly increments.
+I will now share a breakdown of my work sessions with its duration.
 
 #### Session 0 - 2:30 (2:30 in total)
 
@@ -107,4 +107,25 @@ I dedicated my efforts to implementing enemy movement. It's amusing how many tim
 
 Anyway, the algorithm for finding the shortest path is complete. It may not be the most optimal, but since I don't plan to have large grids, it should suffice. In the next session, I'll focus on managing the state of the game. I have an idea to implement a session state system where, after the player moves, the state changes to "EnemyMovement." Once all the enemies have moved, the state will switch back to "PlayerMovement." Changing the state will trigger an event that will be received by interested entities, such as the player and enemies. In the "EnemyMovement" state, the enemies will search for their paths, and in the "PlayerMovement" state, the player's movement controls will be unlocked.
 
+#### Session 9 - 1:00 ( 15:00 in total)
+
+The game session state manager is in place. It is a little bit wobbly, but it serves its purpose. During development, I thought about the retention layer. You need to transmit and store certain information between sessions, such as high scores, enemies killed, and objectives completed. I think my next quest after this game jam will be to create something for the boilerplate template that helps me store this kind of information between sessions. Next session is going to be about finishing the enemy movement.
+
+#### Session 10 - 1:00 ( 16:00 in total)
+
+I had to add something called "EntitiesPrepared" to the GameSessionStateManager. It helps me determine if everything is ready to start the game, as I had trouble synchronizing all the events. As usual, a bit of frustration led to an unnecessary bug that cost me a significant amount of time. But hey, it now works flawlessly. So, next session, for sure, is going to be about finishing the enemy movement.
+
+#### Session 11 - 3:00 ( 19:00 in total)
+
+The enemy movement turned out to be a bigger headache than I had hoped for. Firstly, the world coordinates were calculated after the enemy movement, causing them to move off the grid. To fix this, I added another game session state called "GridCalculation." This state comes right after the player's movement, as it affects the grid.
+
+The next issue was with assigning occupancy to the nodes (lilypads). I forgot to remove the occupancy when moving the enemy, resulting in lag in their movement. While it wouldn't affect gameplay significantly, I wanted to address it for smoother gameplay.
+
+In short, since I'm using a lot of events to avoid singletons and direct references, it feels like it's backfiring. It's possible that I'm using them incorrectly, but dealing with event communication took me around 2 to 3 hours already.
+
+The next step is to complete the game loop, which involves adding the ability for the player to eliminate the flies (enemies, yet to be determined what they will be) and, of course, the possibility for the player to be eliminated when they step onto his lilypad.
+
+#### Session 12 - 1:00 ( 20:00 in total)
+
+I had to test the idea of using sound as an indicator of the monster's location. To do this, I created 18 different sounds (originally intended to be 19, but I excluded playing anything when the player is on the same lilypad). I also added a setting to the code to accommodate this feature. So next session I can finally move to the closing the game loop.
 
