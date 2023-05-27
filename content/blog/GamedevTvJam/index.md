@@ -129,3 +129,12 @@ The next step is to complete the game loop, which involves adding the ability fo
 
 I had to test the idea of using sound as an indicator of the monster's location. To do this, I created 18 different sounds (originally intended to be 19, but I excluded playing anything when the player is on the same lilypad). I also added a setting to the code to accommodate this feature. So next session I can finally move to the closing the game loop.
 
+#### Session 13 - 1:00 ( 21:00 in total)
+
+Now, you can defeat those... I'm still unsure about their identity, darn it, but you can kill them if they are close enough. 
+
+#### Session 14 - 0:15 ( 21:15 in total)
+
+And now they can kill you.
+
+
