@@ -137,4 +137,21 @@ Now, you can defeat those... I'm still unsure about their identity, darn it, but
 
 And now they can kill you.
 
+#### Session 15 - 0:15 ( 21:30 in total)
 
+Player can try the sound of lilypads by right clickng on them.
+
+
+#### Session 16 - 0:30 ( 22:00 in total)
+
+I had to rework how the nodes functioned. Initially, I didn't want them to directly implement Monobehavior so I could spawn them without that baggage. However, I realized the need to provide feedback to the player when they perform an action. The best solution I could think of was to implement a shaking effect on the lilypad to give the player visual feedback.
+
+#### Session 17 - 1:15 ( 23:15 in total)
+
+I probably am not in the mood to develop today. Firstly, I had to deal with a bug that was disabling player movement right after it was turned on. It turned out to be the problem with event communication again. The order to turn it off from the previous round came after the second round had started. If I am going to make a turn-based game, I will have to find a better way to handle it. Another issue is that I am not able to... Oh, I just realized what is wrong. Well, maybe I can address it in the next session.
+
+#### Session 18 - 4:00 - 6:00 ( 27:15 - 29:15 in total)
+
+We had a free Sunday, so I dedicated as much time as possible to work on the game. Finally, I was able to test the game idea after 29 hours. I believe that's quite a long time for such a simple concept. I would have expected to have a working prototype within around 10 hours. Perhaps I should focus more on finding shortcuts and not worry too much about the expandability or reusability of the components. The main goal should be to get the core idea working quickly to ensure it's at least enjoyable. I believe that's the essence of game jams - receiving feedback on a game prototype. It should answer the question "Is this something what people would be interested in?"
+
+Anyway, the core loop is closed. You can finish the session, the game, lose, and receive a score. But damn, it's just a prototype, no art, no visual effects. How on earth do people in game jams manage to finish such amazing games? I don't believe they program for longer than I did for this game. In fact, in Ludum Dare, I believe I am reaching the limit of time I can spend on it.
