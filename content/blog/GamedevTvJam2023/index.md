@@ -166,4 +166,14 @@ And finally, [Here](https://snory.itch.io/melody-pond "Here") it is.
 
 ![frog](./frog.png "Frog for you") 
 
+#### Feedbacks
+
+I have received feedback on how to improve the game. Since I am not currently working on it, I will leave a note here.
+
+Firstly, it would be a good idea to display the number of monsters you have heard, and also play the sound of their movement without any delay. This means that the game would not be delayed when monsters that did not play a tone move.
+
+Additionally, it is suggested to introduce a boost called "long tongue" which would allow you to kill monsters from a greater distance.
+
+Lastly, it is recommended to have a different sound for the sonar than the one used for the lilypads.
+
 
