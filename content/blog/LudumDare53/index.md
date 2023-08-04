@@ -1,7 +1,7 @@
 ---
 title: To LudumDare53
 date: "2023-05-03T08:00:00.000Z"
-description: "Notes from taking a LudumDare53"
+description: "Join me on a thrilling adventure as I participate in Ludum Dare 53, where I'll document the highs, lows, and creative process of creating a game in just 48 hours."
 ---
 
 ## Basic idea

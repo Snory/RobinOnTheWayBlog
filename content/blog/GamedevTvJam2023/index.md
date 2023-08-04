@@ -1,7 +1,7 @@
 ---
 title: To Gamedev.tv game jam
 date: "2023-05-20T10:00:00.000Z"
-description: "notes from taking gamedev.tv game jam"
+description: "Venture with me into the Gamedev.tv game jam, where I'll explore the process of game creation, learning, and growing as a game developer."
 ---
 
 

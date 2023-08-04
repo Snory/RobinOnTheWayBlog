@@ -1,7 +1,7 @@
 ---
-title: To create a VFX in unity
+title: To learn a VFX in unity
 date: "2023-07-16T10:00:00.000Z"
-description: "In other word what I had to learn in order to create a VFX in unity"
+description: "Follow my adventure into the realm of visual effects where I will share my discoveries, experiments and breakthroughs"
 ---
 
 The goal is to create VFX for the game I have in mind, and gosh, I am looking forward to getting it out of my head as I am not able to "crack" it just yet, and it's killing me.
@@ -26,5 +26,5 @@ Once I grasped the basics from the documentation, I experimented with shaders in
 
 During the tutorial, I encountered some challenges, particularly with previewing shaders in the shader graph for opaque materials. I found a [solution](https://forum.unity.com/threads/main-preview-in-shader-graph-is-blank.1412793/ "solution") to this issue by following a forum thread. The tutorial provided me with a better idea of how to utilize shader graphs, but I wanted more practice. As a result, I have a plan to follow a [YouTube tutorial series](https://www.youtube.com/watch?v=O75iGGUQXBI&list=PLpPd_BKEUoYjcFaqriaMchx5gOqBs2tDh&ab_channel=GabrielAguiarProd "Gabriel AguiarProd unity shader graphs tutorial") and then attempt to convert some Blender shader graphs into Unity shader graphs based on videos from another [YouTube channel](https://www.youtube.com/watch?v=9M0Puwo3kB4&list=PLsGl9GczcgBs6TtApKKK-L_0Nm6fovNPk&ab_channel=RyanKingArt "Blender shader graph tutorials").
 
-In any case, I will provide more detailed updates in a separate post as the main purpose of this one is to describe my VFX learning journey.
+In any case, I will provide more detailed updates in a [shaderlearning](https://robinontheway.com/UnityShaderGraph "separate post") as the main purpose of this one is to describe my VFX learning journey.
 
