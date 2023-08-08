@@ -1,7 +1,7 @@
 ---
 title: To learn a Blender
 date: "2023-08-03T10:00:00.000Z"
-description: "Follow along as I am going to learn a secrets of Blender"
+description: "Explore with me the secrets of Blender as I am trying to master it"
 ---
 
 ## Table of Contents
@@ -10,16 +10,24 @@ description: "Follow along as I am going to learn a secrets of Blender"
 # This code block gets replaced with the TOC
 ```
 
-### Courses from Gran Abbit
+### Courses from Grant Abbit
 
-Honestly this guy is by far the best I have met to learn the Blender. With his approach where he challenges you he reminds me a lot Jonathan Weinberger with his courses (which were my gate to the game development world)
+Truly, this extraordinary individual stands as the finest mentor I've encountered in my pursuit of mastering Blender. His unique teaching style, filled with a challenges that beckon us to deep our understanding, evokes memories of the great Jonathan Weinberger, whose courses opened the gateway to my world of game development.
 
 #### Blender Environment Artist: Create 3D Game Worlds
 
-https://www.gamedev.tv/courses/1672425
+[This](https://www.gamedev.tv/courses/1672425 "gamedev tv blender course") is the course which I aquired in the GMKT game jam. To be honest I tried to learn the Blender in past few times, so I was familiar with few of the tools, but not that much, so I think it is safe to say that if you just start you are in the same position as I was.
 
-[This](https://www.gamedev.tv/courses/1672425 "gamedev tv blender course") is the course which I aquired in the GMKT game jam. I knew the tutor Gran Abbit from the youtube so I was pretty sure he is going to be awesome and he was. I learned quite a few stuff, nowhere near the things I need to achieve, but it helped a lot. To be honest I tried to learn the Blender in past few times, so I was familiar with few of the tools, but not that much, so I think it is safe to say that if you just start you are in the same position as I was. 
+I had completed around 24% of the course, and I was somewhere in the texturing module, which came after the module where I learned to build a roof, when I realized that I did not want to start learning how to do texturing. Instead, I would rather continue focusing on creating basic stuff to have a firm grasp of the tools before moving on to other tools in Blender. This thinking led me to separate the basics into three categories:
+
+> * modeling
+> * scupulting
+> * texturing
+
+So, during those 24%, I focused on learning everything connected to the usage of tools for modeling, such as extrusion, beveling, inserting faces, rotation, scaling, moving, loop cuts, and more.
+
+![24percent](./24percentBlender.png "After 24% of the course completed") 
 
 #### GetGood
 
-I was thinking I need to practise a bit more so I was looking for some good source for practise and found out that my favorite tutor has exactly the [thing](https://www.youtube.com/watch?v=98FkRIbihyQ&list=PLn3ukorJv4vvv3ZpWJYvV5Tmvo7ISO-NN&ab_channel=GrantAbbitt "daily practise") I need.
+To practice a bit more of modeling I was looking for some good source to do so and found out that my favorite tutor has exactly the [course](https://www.youtube.com/watch?v=98FkRIbihyQ&list=PLn3ukorJv4vvv3ZpWJYvV5Tmvo7ISO-NN&ab_channel=GrantAbbitt "daily practise") I need.
