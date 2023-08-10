@@ -28,6 +28,11 @@ So, during those 24%, I focused on learning everything connected to the usage of
 
 ![24percent](./24percentBlender.png "After 24% of the course completed") 
 
+
 #### GetGood
 
 To practice a bit more of modeling I was looking for some good source to do so and found out that my favorite tutor has exactly the [course](https://www.youtube.com/watch?v=98FkRIbihyQ&list=PLn3ukorJv4vvv3ZpWJYvV5Tmvo7ISO-NN&ab_channel=GrantAbbitt "daily practise") I need.
+
+### Low-poly character
+
+I was on the hunt for something I could do to adhere to the 50/50 rule, therefore I decided to create an astronaut for the game brewing in my mind. To get me on the right track I used [course](https://www.youtube.com/watch?v=4OUYOKGl7x0&ab_channel=GrantAbbitt "low poly character course"). However, after setting up the background and examining the final model, I believe the course was no longer necessary (this is my perspective after reaching GetGood Level 6).
