@@ -313,6 +313,12 @@ a {
     margin-bottom: var(--spacing-8);
 }
 
+.inlineList {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+  }
+
 /* Media queries */
 
 @media (max-width: 42rem) {
