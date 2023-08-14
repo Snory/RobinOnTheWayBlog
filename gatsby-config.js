@@ -15,7 +15,7 @@ module.exports = {
             summary: `who walks on the way to anywhere it leads. No question asked.`,
         },
         description: `who walks on the way to anywhere it leads. No question asked.`,
-        siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+        siteUrl: `https://robinontheway.com/`,
         social: {
             github: `Snory`,
         },
@@ -115,7 +115,7 @@ module.exports = {
               }
             }`,
                         output: "/rss.xml",
-                        title: "Gatsby Starter Blog RSS Feed",
+                        title: "Robin on the way RSS Feed",
                     },
                 ],
             },

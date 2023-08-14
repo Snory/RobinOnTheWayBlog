@@ -2,6 +2,7 @@
 title: To learn a VFX in unity
 date: "2023-07-16T10:00:00.000Z"
 description: "Follow my adventure into the realm of visual effects where I will share my discoveries, experiments and breakthroughs"
+tags: ["Learning"]
 ---
 
 The goal is to create VFX for the game I have in mind, and gosh, I am looking forward to getting it out of my head as I am not able to "crack" it just yet, and it's killing me.

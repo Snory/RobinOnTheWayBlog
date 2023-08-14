@@ -2,6 +2,7 @@
 title: To learn a Blender
 date: "2023-08-03T10:00:00.000Z"
 description: "Explore with me the secrets of Blender as I am trying to master it"
+tags: ["Learning"]
 ---
 
 ## Table of Contents

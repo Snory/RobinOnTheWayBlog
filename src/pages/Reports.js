@@ -68,7 +68,7 @@ export default BlogIndex
  *
  * See: https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/
  */
-export const Head = () => <Seo title="Learning posts" />
+export const Head = () => <Seo title="Reports posts" />
 
 export const pageQuery = graphql`
   {
@@ -77,7 +77,7 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(sort: { frontmatter: { date: DESC } } filter: { frontmatter: {  tags: { eq: "Learning" }}}) {
+    allMarkdownRemark(sort: { frontmatter: { date: DESC } } filter: { frontmatter: {  tags: { eq: "Reports" }}} ) {
       nodes {
         excerpt
         fields {

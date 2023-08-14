@@ -2,6 +2,7 @@
 title: To report on august 2023
 date: "2023-08-31T10:00:00.000Z"
 description: "Join me as I reflect on the knowledge gained, the challenges conquered, and the hours dedicated to learning various subjects during the month of August 2023"
+tags: ["Reports"]
 ---
 
 > "I did not get a chance" – a sentence from "Million Dollar Baby" that sparked a profound emotion within me. It prompted a realization that every day, I'm presented with an opportunity to engage in something I genuinely desire. It would truly be a regrettable circumstance to pass away without discovering whether my passion holds true, or if I possess the capability to transform it into reality.

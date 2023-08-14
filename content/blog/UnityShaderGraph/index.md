@@ -2,6 +2,7 @@
 title: To learn a Shader graph in Unity
 date: "2023-07-19T10:00:00.000Z"
 description: "Follow me along as I dive deep into the world of Shader graph, unraveling the techniques and tools to create stunning shaders and breathe life into virtual worlds"
+tags: ["Learning"]
 ---
 
 This post will guide you through my journey of learning shaders in Unity. My ultimate objective is to create an environment reminiscent of the one found in 'Master of Anima.', beucase I would like to recreate some of its mechanics which I intend to infuse them with a unique interpretation.
@@ -27,6 +28,7 @@ During this course, or better to say list of "how tos" for specific type of shad
 * [moss](https://youtu.be/Q43XBychCEY)
   * can be combined with with [view, world, object & tangent](https://youtu.be/E6Srr-HaicI) which will allow you to honor the shape of the object given by normals
   * the moss course also introduced blending normal maps, which is done lerping the textures, but there is an [another approach](https://youtu.be/GKVBJ7aO1Mk) to it
+  * there were two more videos on how to improve normal maps, but they required having textures prepared in a specific manner. This suggests that there is definitely a way to enhance the moss, but I chose to skip it.
 
 ![mossDiff](./mossDiff.png "After View, world, object & tangent course: left is original, after course")
 
