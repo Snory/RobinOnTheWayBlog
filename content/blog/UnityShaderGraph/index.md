@@ -46,4 +46,6 @@ While I was attempting to merge this knowledge with insights from [view, world, 
 ### Handy links
 
 * [This](https://polyhaven.com/) is a great link for downloading PBR materials or models
+* [Solution](https://forum.unity.com/threads/main-preview-in-shader-graph-is-blank.1412793/ "solution") to problem with previewing shaders in the shader graph for opaque materials
+* [Official manual](https://docs.unity3d.com/Packages/com.unity.shadergraph@5.6/manual/Getting-Started.html "shader graphs manual")
 
