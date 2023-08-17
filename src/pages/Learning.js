@@ -25,6 +25,9 @@ const BlogIndex = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <Bio />
+      <p>
+        These posts aren't meant to be a direct instructional guide. Rather, their purpose lies in offering a firsthand narrative of the exact steps I embarked upon to attain specific skills.
+      </p> 
       <ol style={{ listStyle: `none` }}>
         {posts.map(post => {
           const title = post.frontmatter.title || post.fields.slug

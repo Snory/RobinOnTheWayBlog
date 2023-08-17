@@ -24,6 +24,9 @@ const BlogIndex = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
+      <p>
+        This series aims to illustrate my monthly journey, with each post comprising a plan, reflection, and a breakdown of time spent on various topics.
+      </p>  
       <Bio />
       <ol style={{ listStyle: `none` }}>
         {posts.map(post => {
