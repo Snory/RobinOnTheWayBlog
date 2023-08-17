@@ -25,14 +25,25 @@ Personally, while embracing the journey throught this course, I've taken on the 
 During this course, or better to say list of "how tos" for specific type of shaders, I applied what I have leared in Ben Cloward course.  
 
 #### Hands-on practise
-* [moss](https://youtu.be/Q43XBychCEY)
+##### Moss
+* [Moss](https://youtu.be/Q43XBychCEY)
   * can be combined with with [view, world, object & tangent](https://youtu.be/E6Srr-HaicI) which will allow you to honor the shape of the object given by normals
   * the moss course also introduced blending normal maps, which is done lerping the textures, but there is an [another approach](https://youtu.be/GKVBJ7aO1Mk) to it
-  * there were two more videos on how to improve normal maps, but they required having textures prepared in a specific manner. This suggests that there is definitely a way to enhance the moss, but I chose to skip it.
+  * there were two more videos on how to improve normal maps, but they required having textures prepared in a specific manner. I chose to skip it as I did not want to spend time by preparing the textures for it.
 
 ![mossDiff](./mossDiff.png "After View, world, object & tangent course: left is original, after course")
 
 ![normalDiff](./normalDiff.png "After normal blend course: left is original, after course")
+
+As a testament to my skills, I attempted to apply moss to the cube. However, the same method only worked on one side (the top), which wasn't the desired outcome. I realized I needed a gradient from bottom to the top of the cube. Nevertheless, I was uncertain about the approach until I came across the [lenght & distance](https://youtu.be/wTHKzjYBH7U) tutorial, which demonstrated how to move the pivot of the UVs which did the trick.
+
+
+While I was attempting to merge this knowledge with insights from [view, world, object & tangent](https://youtu.be/E6Srr-HaicI) to properly honor the shape bestowed by normals on the object, a realization dawned that I lacked clarity about the behavior of vectors during their transformation from tangent space to another space. And let me tell you, it took an unexpected turn from there. I scoured the internet, embarking on a journey that carried me from elementary tutorials to the comprehensive courses on [math planet](https://www.mathplanet.com/) and the captivating streams by [Freya Holmér](https://www.youtube.com/@Acegikmo). Both captivated my attention. It seems the time has come to tread the path of "To learn MATH" on my journey. 
+
+Anyway, I was thinking about what is happening when the UV coordinat is transleted to the Object or world space and came up with following:
+
+
+As soon as I will finish my math journey I will come back to this to verify if I was right or not.
 
 ### Handy links
 
