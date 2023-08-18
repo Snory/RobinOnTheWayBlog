@@ -118,5 +118,5 @@ The second idea was more of a "I give up" solution since the idea with guardians
 
 ### You Start With Everything And End With Nothing
 
-Lately, I've been contemplating a game set in the afterlife, centered around the souls that reside there. In relation to this theme, I've been considering a concept aligned with letting go of one's past life to achieve ascension. Imagine having everything - every memory of your previous life - but needing to gradually let go in order to ascend.
+Lately, I've been contemplating a game set in the afterlife, centered around the souls that reside there. In relation to this theme, I've been considering a concept aligned with letting go of one's past life to achieve ascension. Imagine having everything - every memory of your previous life - but needing to gradually let go in order to ascend. This leads me to something tied with moving up.
 
