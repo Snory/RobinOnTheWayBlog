@@ -22,3 +22,6 @@ August is going to revolve around the theme of art. During this month, I plan to
 
 ### Reflection
 
+Distractions
+
+It was getting harder and harder go keep just with the practice and not to put the knowledge into the test. I slipped few times to think about a game. Firstly it was a space racer and then platformer. It was this nagging feeling that I should create something and it kept distracting me. Therefore I decided that I am not longer going to fight with it and create something what I call "The case of a boring game" as I am going to finish something even thought it is going to be totaly boring. The main point is to finish it. Not just another prototype. Finished game.
