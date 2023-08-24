@@ -27,7 +27,7 @@ const Header  = ({location, title}) => {
       return (
         <header className="global-header">{header}
             <div>
-            <Link to="/GameJams">GameJams</Link> | <Link to="/Learning">Learning</Link> | <Link to="/Reports">Reports</Link>
+            <Link to="/GameJams">GameJams</Link> | <Link to="/Reports">Reports</Link>
             </div>
         
         </header>
