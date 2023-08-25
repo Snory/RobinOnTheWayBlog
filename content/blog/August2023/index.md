@@ -22,23 +22,25 @@ August is going to revolve around the theme of art. During this month, I plan to
 
 ### Reflection
 
-As this is my first reflection it will be probably a little bit breakneck, but I will get there, somehow, sometime.
+This being my first reflection, it might come across as a bit rushed. But I'm confident I'll make my way there, somehow, sometime.
 
-In the 'Focus of the Month' section, I articulated my intention to dedicate 4 hours each day to learning. Initially, I presumed this would be a straightforward goal to achieve. However, reality proved otherwise, as it proved to be more challenging than anticipated. My average daily learning time currently stands at: __. This led me to introspect and ponder, 'Is it feasible for fatigue from sleep or work to impede my ability to carve out the necessary time for propelling myself toward the finish line?' Seeking resolution, I allocated a day of leave from my conventional 9-to-5 occupation, only to discover that I managed to engage in learning for a mere 3 hours and 36 minutes. It was this nagging feeling that I should create something and it kept distracting me. Initially, the concept revolved around a space racer, but later transitioned into a platformer. Eventually, I circled back to one of my earlier ideas—a turn-based game. This transition consumed a substantial amount of my energy, as it invariably does whenever I delve into the intricate realm of game design and strategize approaches. Nonetheless, despite the energy expended, the process was imbued with an undeniable sense of enjoyment. Therefore I decided that I am not longer going to fight with it and create something what I call "The case of a boring game" as I am going to finish something even thought it is going to be totaly boring. The main point is to finish it. Not just another prototype. Finished game.
+In the 'Focus of the Month' section, I articulated my intention to dedicate 4 hours each day to learning. Initially, I presumed this would be a straightforward goal to achieve. However, reality proved otherwise, as it turned out to be more challenging than anticipated. My average daily learning time currently stands at: __.
 
-Nonetheless, it proved to be a month of significance, owing to the invaluable principle of '50/50' that I integrated while embarking on the course-driven journey, drawing inspiration from [draw a box](https://www.drawabox.com "drawabox") a balance of 50% focused study intertwined with 50% hands-on practice. This approach prevented me from merely consuming plain tutorials, often referred to as 'spoonfeeding.' Instead, it urged me to engage actively and endeavor on my own. This method not only aids in understanding the concepts profoundly but also solidifies new knowledge by melding it through the crucible of practical application.
+This led me to introspect and ponder, 'Is it feasible for fatigue from sleep or work to impede my ability to carve out the necessary time for propelling myself toward the finish line?' Seeking resolution, I took a day of leave from my conventional 9-to-5 occupation, only to discover that I managed to engage in learning for a mere 3 hours and 36 minutes.
 
-Moving forward, my intention is to delve into the intricate details of each pursuit undertaken during the month, accompanied by a breakdown of the time invested in these endeavors.
+It was this nagging feeling that I should create something, and it kept distracting me. I was thinking about a concept for a space racer, a platformer, and in the end, I was revisiting one of my older ideas. Thinking about game designs always costs me a great deal of energy; nonetheless, it is always fun.
+  
+Because it is so distracting, I decided that the last week of the month is going to be focused on 'The Case of the Boring Game,' as I called it. The idea is to finish a simple game in a week while using the knowledge I acquired during the month. Why 'The Case of a Boring Game'? Well, many of my ideas end with 'that's too boring to finish,' and I never finish anything this way.
+
+Despite all the distractions, it proved to be a significant month, owed to the invaluable principle of '50/50' that I integrated while embarking on the course-driven journey, drawing inspiration from [draw a box](https://www.drawabox.com "drawabox"). This principle advocates a balance of 50% focused study intertwined with 50% hands-on practice. This approach prevented me from merely consuming plain tutorials, often referred to as 'spoonfeeding.' Instead, it urged me to engage actively and endeavor on my own. This method not only aids in understanding the concepts profoundly but also solidifies new knowledge by melding it through the crucible of practical application.
+
+Now, I am going to briefly describe what I have been doing during the month.
 
 #### Blender
 
-##### Courses from Grant Abbit
+As for the Blender I focused on courses from Grant Abbit. Truly, this extraordinary individual stands as the finest mentor I've encountered in my pursuit of mastering Blender. His unique teaching style, filled with a challenges that beckon us to deep our understanding, evokes memories of the great Jonathan Weinberger, whose courses opened the gateway to my world of game development.
 
-Truly, this extraordinary individual stands as the finest mentor I've encountered in my pursuit of mastering Blender. His unique teaching style, filled with a challenges that beckon us to deep our understanding, evokes memories of the great Jonathan Weinberger, whose courses opened the gateway to my world of game development.
-
-###### Blender Environment Artist: Create 3D Game Worlds
-
-[This](https://www.gamedev.tv/courses/1672425 "gamedev tv blender course") is the course which I aquired in the GMKT game jam. To be honest I tried to learn the Blender in past few times, so I was familiar with few of the tools, but not that much, so I think it is safe to say that if you just start you are in the same position as I was.
+I started with [course]](https://www.gamedev.tv/courses/1672425 "gamedev tv blender course") I aquired in the GMKT game jam. To be honest I tried to learn the Blender in past few times, so I was familiar with few of the tools, but not that much, so I think it is safe to say that if you just start you are in the same position as I was.
 
 I had completed around 24% of the course, and I was somewhere in the texturing module, which came after the module where I learned to build a roof, when I realized that I did not want to start learning how to do texturing. Instead, I would rather continue focusing on creating basic stuff to have a firm grasp of the tools before moving on to other tools in Blender. This thinking led me to separate the basics into following categories:
 
@@ -48,32 +50,20 @@ I had completed around 24% of the course, and I was somewhere in the texturing m
 > * topology
 > * rigging
 
-So, during those 24%, I focused on learning everything connected to the usage of tools for modeling, such as extrusion, beveling, inserting faces, rotation, scaling, moving, loop cuts, and more. After the 24% I stopped working on the course and moved to GetGood series.
+So, during those 24%, I focused on learning everything connected to the usage of tools for modeling, such as extrusion, beveling, inserting faces, rotation, scaling, moving, loop cuts, and more. 
 
 ![24percent](./24percentBlender.png "After 24% of the course completed") 
 
+To practice a bit more of modeling I stopped the course above and started looking for some good source for practice. I found out that my favorite tutor has exactly the [course](https://www.youtube.com/watch?v=98FkRIbihyQ&list=PLn3ukorJv4vvv3ZpWJYvV5Tmvo7ISO-NN&ab_channel=GrantAbbitt "daily practise") I need. But do not get mistaken that it is only about practise, there is a lot more to learn than I would think. Most scary of all, the new knowledge is called 'topology,' which is something I had a hard time wrapping my head around. But don't be afraid and trust Grant. I was able to grasp topology as I progressed through the videos.
 
-###### GetGood
+While I was thinking about the platformer game mentioned in the part where I was writing about distractions, I needed a low-poly character. I wanted to ensure that I would begin with a solid foundation of understanding how to create one, so I looked up a [course](https://www.youtube.com/watch?v=4OUYOKGl7x0&ab_channel=GrantAbbitt "low poly character course") from Grant. I encountered a hurdle in animating it using [mixamo](https://mixamo.com/). To achieve animation, it seems I'll need to acquaint myself with a Blender plugin for Mixamo. I suspect this will form the focal point for my endeavors in September. Yet, the final decision remains pending.
 
-To practice a bit more of modeling I was looking for some good source to do so and found out that my favorite tutor has exactly the [course](https://www.youtube.com/watch?v=98FkRIbihyQ&list=PLn3ukorJv4vvv3ZpWJYvV5Tmvo7ISO-NN&ab_channel=GrantAbbitt "daily practise") I need. But do not get mistaken that it is only about practise, there is a lot more to learn than I would think. Most scary of all the new knowledge is called "topology" that is something what I have a hard time to wrap my head around (at least for now).
-
-###### Low-poly character
-
-I was on the hunt for something I could do to adhere to the 50/50 rule, therefore I decided to create an astronaut for the game brewing in my mind. To get me on the right track I used [course](https://www.youtube.com/watch?v=4OUYOKGl7x0&ab_channel=GrantAbbitt "low poly character course"). However, after setting up the background and examining the final model, I believe the course was no longer necessary (this is my perspective after reaching GetGood Level 6). However, to my surprise, I encountered a hurdle in animating it using  [mixamo](https://mixamo.com/).  To achieve animation, it seems I'll need to acquaint myself with a Blender plugin. I suspect this will form the focal point for my endeavors in September. Yet, the final decision remains pending.
 
 #### ShaderGraphs
 
-##### Ben Cloward - Shader graph basics
+Right from the start, I dove into Gabriel Aguiar [playlist](https://www.youtube.com/playlist?list=PLpPd_BKEUoYjcFaqriaMchx5gOqBs2tDh), eager to roll up my sleeves and get into the thick of it. However, it did not explain shaders very well; instead, it focused on their usage in combination with the VFX graph. It wouldn't do any good for my self-esteem, as I need to understand what I am doing to feel confident about it. Fortunately, after searching the internet, I stumbled upon [courses](https://www.youtube.com/watch?v=OX_6_bKpP9g&list=PL78XDi0TS4lEBWa2Hpzg2SRC5njCcKydl&pp=iAQB "course") from Ben Cloward. He helped me establish a solid foundation to approach shader graphs with confidence.
 
-Right from the start, I dived into Gabriel's courses, eager to roll up my sleeves and get into the thick of it. And okay, it seemed pretty straightforward initially, but soon enough, I realized there were gaps in what I knew. I had a rough idea of how things worked, you know? I even whipped up a test shader to put my theories to the test, but I still craved that clear explanation in black and white. So here's the deal: I'm giving a thumbs-up to kick off with this [course](https://www.youtube.com/watch?v=OX_6_bKpP9g&list=PL78XDi0TS4lEBWa2Hpzg2SRC5njCcKydl&pp=iAQB "course") - it's like building your base, giving you solid ground to take on shader graphs with confidence.
-
-##### Hands-on practise
-
-Most of the the hands-on practice are going to be based on Gabriel Aguiar [playlist](https://www.youtube.com/playlist?list=PLpPd_BKEUoYjcFaqriaMchx5gOqBs2tDh) of "How to`s" as I believe it will do the trick which will help me put knowledge from Ben into a practice.
-
-###### Moss
-
-My curiosity was piqued by the concept of creating moss, particularly after encountering an appealing image of moss-covered hexagons. This exploration was not only driven by aesthetics but also served as a valuable learning opportunity due to the intricate interplay of normal textures, diffuse textures, and roughness textures. The process involved blending the base texture with the moss texture.
+My curiosity was piqued by the concept of creating moss, especially after stumbling upon an alluring image featuring moss-covered hexagons. This endeavor was not solely motivated by aesthetics but also served as a valuable learning experience as we worked with diffuse, normal, and roughness textures - knowledge I can apply when importing textures created in Blender.
 
 * [Moss](https://youtu.be/Q43XBychCEY)
   * can be combined with with [view, world, object & tangent](https://youtu.be/E6Srr-HaicI) which will allow you to honor the shape of the object given by normals
@@ -94,4 +84,4 @@ While I was attempting to merge this knowledge with insights from [view, world, 
 
 * [This](https://polyhaven.com/) is a great link for downloading PBR materials or models
 * [Solution](https://forum.unity.com/threads/main-preview-in-shader-graph-is-blank.1412793/ "solution") to problem with previewing shaders in the shader graph for opaque materials
-* [Official manual](https://docs.unity3d.com/Packages/com.unity.shadergraph@5.6/manual/Getting-Started.html "shader graphs manual")
+* [Official manual for unity shader graphs](https://docs.unity3d.com/Packages/com.unity.shadergraph@5.6/manual/Getting-Started.html "shader graphs manual")
