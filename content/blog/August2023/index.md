@@ -1,6 +1,6 @@
 ---
 title: To report on august 2023
-date: "2023-08-31T10:00:00.000Z"
+date: "2023-08-25T10:00:00.000Z"
 description: "Join me as I reflect on the knowledge gained, the challenges conquered, and the hours dedicated to learning various subjects during the month of August 2023"
 tags: ["Reports"]
 ---
@@ -24,9 +24,9 @@ August is going to revolve around the theme of art. During this month, I plan to
 
 This being my first reflection, it might come across as a bit rushed. But I'm confident I'll make my way there, somehow, sometime.
 
-In the 'Focus of the Month' section, I articulated my intention to dedicate 4 hours each day to learning. Initially, I presumed this would be a straightforward goal to achieve. However, reality proved otherwise, as it turned out to be more challenging than anticipated. My average daily learning time currently stands at: __.
+In the 'Focus of the Month' section, I articulated my intention to dedicate 4 hours each day to learning. Initially, I presumed this would be a straightforward goal to achieve. However, reality proved otherwise, as it turned out to be more challenging than anticipated. In total I was learning around 41 hours from 6th of August to 25th of August. So 20 days making my average daily learning time around two hours a day.
 
-This led me to introspect and ponder, 'Is it feasible for fatigue from sleep or work to impede my ability to carve out the necessary time for propelling myself toward the finish line?' Seeking resolution, I took a day of leave from my conventional 9-to-5 occupation, only to discover that I managed to engage in learning for a mere 3 hours and 36 minutes.
+This led me to introspect and ponder, 'Is it feasible for fatigue from sleep or work to impede my ability to carve out the necessary time for propelling myself toward the finish line?' Seeking resolution, I took a day of leave from my conventional 9-to-5 occupation, only to discover that I managed to engage in learning for a mere 3 hours and 36 minutes. 
 
 It was this nagging feeling that I should create something, and it kept distracting me. I was thinking about a concept for a space racer, a platformer, and in the end, I was revisiting one of my older ideas. Thinking about game designs always costs me a great deal of energy; nonetheless, it is always fun.
   
@@ -36,7 +36,7 @@ Despite all the distractions, it proved to be a significant month, owed to the i
 
 Now, I am going to briefly describe what I have been doing during the month.
 
-#### Blender
+#### Blender - 13 hours
 
 As for the Blender I focused on courses from Grant Abbit. Truly, this extraordinary individual stands as the finest mentor I've encountered in my pursuit of mastering Blender. His unique teaching style, filled with a challenges that beckon us to deep our understanding, evokes memories of the great Jonathan Weinberger, whose courses opened the gateway to my world of game development.
 
@@ -61,7 +61,7 @@ To practice a bit more of modeling I stopped the course above and started lookin
 While I was thinking about the platformer game mentioned in the part where I was writing about distractions, I needed a low-poly character. I wanted to ensure that I would begin with a solid foundation of understanding how to create one, so I looked up a [course](https://www.youtube.com/watch?v=4OUYOKGl7x0&ab_channel=GrantAbbitt "low poly character course") from Grant. I encountered a hurdle in animating it using [mixamo](https://mixamo.com/). To achieve animation, it seems I'll need to acquaint myself with a Blender plugin for Mixamo. I suspect this will form the focal point for my endeavors in September. Yet, the final decision remains pending.
 
 
-#### ShaderGraphs
+#### ShaderGraphs - 14 hours
 
 Right from the start, I dove into Gabriel Aguiar [playlist](https://www.youtube.com/playlist?list=PLpPd_BKEUoYjcFaqriaMchx5gOqBs2tDh), eager to roll up my sleeves and get into the thick of it. However, it did not explain shaders very well; instead, it focused on their usage in combination with the VFX graph. It wouldn't do any good for my self-esteem, as I need to understand what I am doing to feel confident about it. Fortunately, after searching the internet, I stumbled upon [courses](https://www.youtube.com/watch?v=OX_6_bKpP9g&list=PL78XDi0TS4lEBWa2Hpzg2SRC5njCcKydl&pp=iAQB "course") from Ben Cloward. He helped me establish a solid foundation to approach shader graphs with confidence.
 
@@ -81,6 +81,14 @@ As a testament to my skills, I attempted to apply moss to the cube. However, the
 While I was attempting to merge this knowledge with insights from [view, world, object & tangent](https://youtu.be/E6Srr-HaicI) to properly honor the shape bestowed by normals on the object, a realization dawned that I lacked clarity about the behavior of vectors during their transformation from tangent space to another space. And let me tell you, it took an unexpected turn from there. I scoured the internet, embarking on a journey that carried me from elementary tutorials to the comprehensive courses on [math planet](https://www.mathplanet.com/) and the captivating streams by [Freya Holmér](https://www.youtube.com/@Acegikmo). Both captivated my attention. It seems the time has come to tread the path of learning math on my journey.
 
 ![cubeGraident](./cubeGradient.png "Left - gradient generated by the tangent-axis coordinates of the shifted UV pivot, blended with the tangent-axis of the normal texture transformed into world space. Right - applied textures")
+
+#### Drawing - 6 hours
+
+As already mentioned, I have been (for a while now) trying to learn drawing. I fell in love with the [draw a box](https://www.drawabox.com "drawabox") website mentioned earlier. To get back into practice, I undertook the challenge of drawing 250 boxes once again. Hopefully, I will be able to finish it next month. However, this activity is nowhere near my top priorities; it's just something I can relax and unwind with.
+
+#### Blog - 4 hours
+
+Nothing much to say here. My goal was to understand GatsbyJS and acquire the ability to add categories, plugins, or change visuals if needed. I had to go through a JavaScript course to understand the basic syntax, and after that, I moved on to GatsbyJS. All the courses were taken on the [pluralsight](www.pluralsight.com)  platform, for which I have a yearly subscription from the time I transitioned to the IT field
 
 ### Handy links
 

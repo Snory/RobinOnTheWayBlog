@@ -53,4 +53,12 @@ Well, the first hour of my timeline was spent to..., create a sailboat in Blende
 
 The second hour was spent painting the boat a little bit. Since this was my first time, it took me longer than anticipated, but I am happy with the outcome. I am actually pleased that ChatGPT began with the sailboat model, as the subsequent models are designed following their respective logic and I love to work on a game when it already looks like a game. 
 
-Anyway, I am still aligned with the timeline, but I think it's time to move on to implementing the sailboat movement. 
+Nonetheless, I am still aligned with the timeline, but I think it's time to move on to implementing the sailboat movement. 
+
+#### Session 2 - 2:14 (4:22 in total)
+
+I would say that the basic movement is done, but I am going to use the rest of the time tweak it a bit.
+
+#### Session 3 - 0:35 (4:57 in total)
+
+Well, the control works, but I am not that happy with the camera. I would like to create something what will follow the ship in a little bit of cinematic way. Meaning, when it will go forward, I am going to just follow it, but when it will go to the side ways I would like to rotate and look on the ship from the side view. Hopefully I will manage it somehow. Anyway, it means, that I will have a bit of delay. I guess like two hours maybe?
