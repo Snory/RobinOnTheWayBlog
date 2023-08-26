@@ -56,6 +56,8 @@ So, during those 24%, I focused on learning everything connected to the usage of
 
 To practice a bit more of modeling I stopped the course above and started looking for some good source for practice. I found out that my favorite tutor has exactly the [course](https://www.youtube.com/watch?v=98FkRIbihyQ&list=PLn3ukorJv4vvv3ZpWJYvV5Tmvo7ISO-NN&ab_channel=GrantAbbitt "daily practise") I need. But do not get mistaken that it is only about practise, there is a lot more to learn than I would think. Most scary of all, the new knowledge is called 'topology,' which is something I had a hard time wrapping my head around. But don't be afraid and trust Grant. I was able to grasp topology as I progressed through the videos.
 
+![GetGood](./GetGood.png "GetGood - first 10 levels + some half levels") 
+
 While I was thinking about the platformer game mentioned in the part where I was writing about distractions, I needed a low-poly character. I wanted to ensure that I would begin with a solid foundation of understanding how to create one, so I looked up a [course](https://www.youtube.com/watch?v=4OUYOKGl7x0&ab_channel=GrantAbbitt "low poly character course") from Grant. I encountered a hurdle in animating it using [mixamo](https://mixamo.com/). To achieve animation, it seems I'll need to acquaint myself with a Blender plugin for Mixamo. I suspect this will form the focal point for my endeavors in September. Yet, the final decision remains pending.
 
 
@@ -63,20 +65,20 @@ While I was thinking about the platformer game mentioned in the part where I was
 
 Right from the start, I dove into Gabriel Aguiar [playlist](https://www.youtube.com/playlist?list=PLpPd_BKEUoYjcFaqriaMchx5gOqBs2tDh), eager to roll up my sleeves and get into the thick of it. However, it did not explain shaders very well; instead, it focused on their usage in combination with the VFX graph. It wouldn't do any good for my self-esteem, as I need to understand what I am doing to feel confident about it. Fortunately, after searching the internet, I stumbled upon [courses](https://www.youtube.com/watch?v=OX_6_bKpP9g&list=PL78XDi0TS4lEBWa2Hpzg2SRC5njCcKydl&pp=iAQB "course") from Ben Cloward. He helped me establish a solid foundation to approach shader graphs with confidence.
 
-My curiosity was piqued by the concept of creating moss, especially after stumbling upon an alluring image featuring moss-covered hexagons. This endeavor was not solely motivated by aesthetics but also served as a valuable learning experience as we worked with diffuse, normal, and roughness textures - knowledge I can apply when importing textures created in Blender.
+My curiosity was piqued by the concept of creating moss, especially after stumbling upon an alluring image featuring moss-covered hexagons. This endeavor was not solely motivated by aesthetics but also served as a valuable learning experience as we worked with diffuse, normal, and roughness textures - knowledge I can apply when importing textures created in Blender. So I started with a [moss](https://youtu.be/Q43XBychCEY) from Gabriel and after that I merged it with knowledge from Ben.
 
-* [Moss](https://youtu.be/Q43XBychCEY)
+* Moss
   * can be combined with with [view, world, object & tangent](https://youtu.be/E6Srr-HaicI) which will allow you to honor the shape of the object given by normals
   * the moss course also introduced blending normal maps, which is done lerping the textures, but there is an [another approach](https://youtu.be/GKVBJ7aO1Mk) to it
   * there were two more videos on how to improve normal maps, but they required having textures prepared in a specific manner. I chose to skip it as I did not want to spend time by preparing the textures for it.
 
-![mossDiff](./mossDiff.png "After View, world, object & tangent course: left is original, after course")
+![mossDiff](./mossDiff.png "After View, world, object & tangent course: left is original, after applied knowledge from Ben")
 
-![normalDiff](./normalDiff.png "After normal blend course: left is original, after course")
+![normalDiff](./normalDiff.png "After normal blend course: left is original, after applied knowledge from Ben")
 
 As a testament to my skills, I attempted to apply moss to the cube. However, the same method only worked on one side (the top), which wasn't the desired outcome. I realized I needed a gradient from bottom to the top of the cube. Nevertheless, I was uncertain about the approach until I came across the [lenght & distance](https://youtu.be/wTHKzjYBH7U) tutorial, which demonstrated how to move the pivot of the UVs which did the trick.
 
-While I was attempting to merge this knowledge with insights from [view, world, object & tangent](https://youtu.be/E6Srr-HaicI) to properly honor the shape bestowed by normals on the object, a realization dawned that I lacked clarity about the behavior of vectors during their transformation from tangent space to another space. And let me tell you, it took an unexpected turn from there. I scoured the internet, embarking on a journey that carried me from elementary tutorials to the comprehensive courses on [math planet](https://www.mathplanet.com/) and the captivating streams by [Freya Holmér](https://www.youtube.com/@Acegikmo). Both captivated my attention. It seems the time has come to tread the path of "To learn MATH" on my journey. 
+While I was attempting to merge this knowledge with insights from [view, world, object & tangent](https://youtu.be/E6Srr-HaicI) to properly honor the shape bestowed by normals on the object, a realization dawned that I lacked clarity about the behavior of vectors during their transformation from tangent space to another space. And let me tell you, it took an unexpected turn from there. I scoured the internet, embarking on a journey that carried me from elementary tutorials to the comprehensive courses on [math planet](https://www.mathplanet.com/) and the captivating streams by [Freya Holmér](https://www.youtube.com/@Acegikmo). Both captivated my attention. It seems the time has come to tread the path of learning math on my journey.
 
 ![cubeGraident](./cubeGradient.png "Left - gradient generated by the tangent-axis coordinates of the shifted UV pivot, blended with the tangent-axis of the normal texture transformed into world space. Right - applied textures")
 
