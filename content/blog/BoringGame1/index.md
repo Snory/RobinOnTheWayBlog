@@ -19,46 +19,87 @@ This is going to be the first instance of a 'boring game' which I mentioned in t
 
 ### Learning-Focused Game Development Project Timeline
 
-I requested ChatGPT to compose a develop timeline for me. Even the headline.
+I requested ChatGPT to compose a develop timeline for me. Even the headline. I don't think it is a good timeline as there are missing things like the polishing phase, something to handle inventory, and so on, but we will see.
 
-#### Day 1 - Sailboat Model and Basic Mechanics:
-- **Sailboat Model in Blender** *(2 hours)*: Create a basic sailboat model in Blender for use in Unity.
-- **Sailboat Movement** *(3 hours)*: Implement the sailboat movement mechanic in Unity, focusing on the core functionality.
+#### Development Timeline: Vector Voyage
 
-#### Day 2 - Resource Gathering and Model Creation:
-- **Island Layout and Resources** *(2 hours)*: Design a simple layout of a few islands. Plan resource types and placements.
-- **Resource Models in Blender** *(2 hours)*: Create models for the resources (e.g., wood, stone) in Blender.
+#### Day 1 - Basic Models and Core Mechanics
 
-#### Day 3 - Boss Battle Mechanics and Model Creation:
-- **Boss Battle Scenario Design** *(2 hours)*: Plan the basic boss battle scenario, including attack patterns and positioning.
-- **Boss Battle Mechanics** *(3 hours)*: Implement the boss battle mechanics in Unity, incorporating strategic positioning.
-- **Boss Character Model in Blender** *(2 hours)*: Create a basic model for the boss character in Blender.
+1. **Basic 3D Modeling (3 hours):**
+   - Create a simple 3D model of the sailboat using Blender.
 
-#### Day 4 - Polishing, Shaders, and Documentation:
-- **Polishing and Playtesting** *(2 hours)*: Playtest the game loop, refine mechanics, and address any major bugs.
-- **Shader Exploration in Blender** *(2 hours)*: Experiment with creating basic shaders in Blender for sailboat and environment elements.
-- **Polishing and Bug Fixing** *(2 hours)*: Further polish the gameplay experience and address remaining bugs.
-- **Documentation** *(2 hours)*: Write a brief document outlining the game mechanics, controls, and shader techniques for future reference.
+2. **Vector-based Navigation (4 hours):**
+   - Develop the vector control system for sailboat movement.
+
+#### Day 2 - Resource Mechanics and Gameplay Systems
+
+3. **Basic 3D Modeling (3 hours):**
+   - Design a simple 3D model for the resource.
+
+4. **Resource Collection (4 hours):**
+   - Implement resource spawning, floating behavior, and automatic collection upon contact.
+
+5. **Basic 3D Modeling (3 hours):**
+   - Create a basic 3D model for the island structure.
+
+6. **Island Upgrades (3 hours):**
+   - Develop mechanics for island upgrades and spending collected resources.
+
+#### Day 3 - Environmental Dangers, Enemy Interactions, and Polish
+
+7. **Basic 3D Modeling (2 hours):**
+   - Model a simple 3D enemy boat using Blender.
+
+8. **Environmental Dangers (4 hours):**
+   - Design tornados that periodically appear in the game world.
+   - Implement tornado movement patterns and collision detection.
+
+9. **Tornado Defense Mechanic (3 hours):**
+   - Create a defense mechanism for players to prevent tornados from hitting the island.
+
+#### Day 4 - Polish, Visual Enhancements, and Finalization
+
+10. **Enemy Interactions (4 hours):**
+    - Design basic enemy boat AI movement towards the island.
+    - Program the enemy boat's firing behavior and collision detection.
+
+11. **Advanced 3D Modeling (3 hours):**
+    - Create detailed 3D models for island structures, enemy boats, and additional assets.
+
+12. **Game Loop and Progression (2 hours):**
+    - Set up a game loop with alternating waves of enemy attacks, resource collection, and tornado events.
+    - Define progression logic to increase wave difficulty.
+
+13. **Visual Enhancements (3 hours):**
+    - Import advanced 3D models into the game engine.
+    - Implement visual effects for various interactions and events.
+
+14. **Sound Effects (2 hours):**
+    - Add simple sound effects for different actions and events in the game.
+
+**Total Estimated Development Hours:** 42 hours
 
 
 ### Reflection
 
-According to the proposed timeline it should take 24 hours to finish the game. I will now share a breakdown of my work sessions with its duration.
+According to the proposed timeline it should take 42 hours to finish the game. I will now share a breakdown of my work sessions with its duration.
 
-#### Session 0 - 00:50
+#### Day 1 - 00:50
 
-Well, the first hour of my timeline was spent to..., create a sailboat in Blender! It was fun, nowhere near completion, but I believed it would be a good idea to test how quickly I can create something to experiment with in Unity.
+So the first day was going according to the plan. I created a simple sailboat in Blender and prepared basic movement. Although it was a headache to prepare the movement as I had not been programming for a while, I eventually got it done. I think that the camera could use some more work, but I guess it is something I am going to do in the polish phase.
 
-#### Session 1 - 1:18 (2:08 in total)
+#### Day 2 - 4:07 (4:47)
 
-The second hour was spent painting the boat a little bit. Since this was my first time, it took me longer than anticipated, but I am happy with the outcome. I am actually pleased that ChatGPT began with the sailboat model, as the subsequent models are designed following their respective logic and I love to work on a game when it already looks like a game. 
+On the second day, I was playing in Blender with texturing. I had a hard time export textures to Unity for some reason, so it is not used yet, and I will return to it in the future. I also improved the movement, added an indicator of direction and force you are about to apply to the ship, and created a green island where you should trade with someone. However, I scratched that idea for now.
 
-Nonetheless, I am still aligned with the timeline, but I think it's time to move on to implementing the sailboat movement. 
 
-#### Session 2 - 2:14 (4:22 in total)
+#### Day 3 - 2:41 (7:35)
 
-I would say that the basic movement is done, but I am going to use the rest of the time tweak it a bit.
+I found myself grappling with a common feeling that crops up during game development - the fear that the end result might turn out uninteresting. The lack of a captivating game loop and other concerns occupied my thoughts. Pushing through this challenge is tough, especially when my vision for the game isn't crystal clear, or if it is, it doesn't resonate as fun in my mind.
 
-#### Session 3 - 0:35 (4:57 in total)
+However, I'm approaching this hurdle similarly to how developers tackle the 'pass the challenge game.' I'm implementing features and seeing where they lead. Along these lines, I introduced a concept - a wrecked boat. By skillfully navigating near the wreck, it triggers the spawning of planks. These planks could serve as a resource, potentially aiding in healing. Time will reveal their true potential.
 
-Well, the control works, but I am not that happy with the camera. I would like to create something what will follow the ship in a little bit of cinematic way. Meaning, when it will go forward, I am going to just follow it, but when it will go to the side ways I would like to rotate and look on the ship from the side view. Hopefully I will manage it somehow. Anyway, it means, that I will have a bit of delay. I guess like two hours maybe?
+
+
+
+
