@@ -1,5 +1,5 @@
 ---
-title: Boring game I.
+title: Boring game I. (August)
 date: "2023-08-26T10:00:00.000Z"
 description: "Come along as I dive into the journey of crafting a straightforward yet unassuming game, strategically designed to shield me from distractions during my dedicated learning sessions."
 tags: ["Reports"]
@@ -20,8 +20,6 @@ This is going to be the first instance of a 'boring game' which I mentioned in t
 ### Learning-Focused Game Development Project Timeline
 
 I requested ChatGPT to compose a develop timeline for me. Even the headline. I don't think it is a good timeline as there are missing things like the polishing phase, something to handle inventory, and so on, but we will see.
-
-#### Development Timeline: Vector Voyage
 
 #### Day 1 - Basic Models and Core Mechanics
 
@@ -103,10 +101,26 @@ However, I'm approaching this hurdle similarly to how developers tackle the 'pas
 
 #### Day 4 - 4:22 (11:57)
 
-Yesterday evening, before I went to sleep, I came up with an idea for the game and how to make it more fun. It started with an idea of collection messages in a bottle, but ended up with robots. There are going to be a robots boat with a movement pattern. They are a rogue robots that went into the Bermuda Triangle. They are trying to find a way by repeating the pattern it followed when it got lost. It is dangerous to move around the robot ships, as they attack you when you get too close. The only way to shut them down is to hit them from behind without triggering their action if you're within their range. This means you have to observe the pattern and find the right time to sail the ship in the direction of their back. Once you're in their range, you cant control the direction, otherwise they would kill you right away.
+Yesterday evening, before I went to sleep, I came up with an idea for the game and how to make it more fun. It started with an idea of collection messages in a bottle, but ended up with robots. There are going to be a robots boat with a predictable movement pattern. They are a rogue robots that went into the Bermuda Triangle. They are trying to find a way by repeating the pattern it followed when it got lost. It is dangerous to move around the robot ships, as they attack you when you get too close. The only way to shut them down is to hit them to certain spot without triggering their action if you're within their range. This means you have to observe the pattern and find the right time to sail the ship in the direction to hit the correct spot. Once you're in their range, you cant control the direction, otherwise they would kill you right away.
 
-The idea was pretty straightforward and should have been implemented quickly, but being true to my nature, I made it a bit more challenging. I came across a video discussing async methods in Unity. They don't necessarily replace existing methods; instead, they provide an additional tool in the toolbox. They can return values, and the chaining of operations is more streamlined using the 'await' keyword. However, they also come with their fair share of downsides. I encountered a few of these downsides while attempting to make it work using async methods.
+The idea was pretty straightforward and should have been implemented quickly, but being true to my nature, I made it a bit more challenging. I came across a video discussing async methods in Unity. They don't necessarily replace existing methods; instead, they provide an additional tool in the toolbox. They can return values, and the chaining of operations is more streamlined using the 'await' keyword. However, they also come with their fair share of downsides. I encountered a few of these downsides while attempting to make it work.
 
-But I managed to prepare it somehow. It is a little bit hard to put the pattern in place as I am drawing the directions to gizmos, but hey, it works. I am going to prepare something enhanced later.
+But I managed to prepare it somehow. It is a little bit hard to put the pattern in place as I am only drawing the directions to gizmos, but hey, it works. I am going to prepare something enhanced later.
 
 As you can see I am not align with the proposed timeline from chatgpt as it was generating the timeline for different game. Anyway, I am going to leave it her as reminder to myself that the plans change and they change a lot.
+
+#### Day 5 - 1:37 (13:34)
+
+I purchased a subscription for Midjourney to gain an idea of what the robot ship could look like. I spent the rest of the time attempting to recreate one of the pictures from Midjourney. I was uncertain about how to achieve a viewpoint from the top, bottom, and sides, but then I did not even bother to search for solutions. 
+
+![midjourney](./midjourneyrobotidea.png "Midjourney idea of robotic ship")
+
+Tomorrow, I will program the hitboxes for the robots so I can deactivate them. The next step will involve a bit of level design to gain insight into what is and isn't feasible within the mechanics I've developed.
+
+
+#### Day 6 - 2:21 (15:55)
+
+I finished the robot ship and programmed the hitboxes, but even though I believe in the mechanics, the enemy ship doesn't adhere to them. This means that I need something for the model where I can use different spots for hitboxes while it should make sense to hit them by looking at the model. 
+
+
+![day5](./Day5.png "Image capturing the core mechanic")
