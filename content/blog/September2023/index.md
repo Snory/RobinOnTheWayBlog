@@ -1,6 +1,6 @@
 ---
 title: To report on september 2023
-date: "2023-08-25T10:00:00.000Z"
+date: "2023-09-01T10:00:00.000Z"
 description: "Join me as I reflect on the knowledge gained, the challenges conquered, and the hours dedicated to learning various subjects during the month of September 2023"
 tags: ["Reports"]
 ---
