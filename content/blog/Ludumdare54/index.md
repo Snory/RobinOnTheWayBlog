@@ -29,7 +29,7 @@ For example, I recently downloaded Naruto Shippuden: Ultimate Ninja Storm 4 and 
 
 So, the jam took up almost an entire day, and I wasn't able to finish (more on that later). Before I dive into what I was doing each day, or rather, how I felt each day, I'd like to jot down a few notes to myself about what went well and what I should definitely continue.
 
-First of all, for the for the first time I was using Trello and it sure is a good way how to stay on track. I did not have a time to thing about organization, but I am going to come up with something for the next game jam.
+First of all, for the for the first time I was using Trello and it sure is a good way how to stay on track. I did not have a time to think about organization, but I am going to come up with something for the next game jam.
 
 ![Trello](./Trello.png "Trello to do lists")
 
