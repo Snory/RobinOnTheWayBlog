@@ -70,7 +70,3 @@ These are going to be the first key takeaways:
 * Only then add details, hard surfacing, and so on.
 
 Oh boy, if I had followed the key takeaway right from the start, it would have saved me a lot of time. 
-
-### What next
-
-I made a decision that even though I was not able to deliver the game for the compo or jam, I am going to submit it as an extra entry this time. I will learn how to animate those little characters, how to implement light and heavy attacks, and I am going to finish it thoroughly. 

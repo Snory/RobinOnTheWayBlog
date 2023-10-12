@@ -15,11 +15,11 @@ tags: ["Reports"]
 
 ### Focus of the month
 
-October is going to be a little bit wild. I have a two-fold goal: I want to finish the Ludumdare game jam and submit it in the extra category, and I also need to make progress in my work. This means my approach to learning will be quite different this month.
+October is going to be more focused on work-related knowledge because I feel it's necessary at this point. I had considered finishing the game jam for the "extra" category, but the thought of combining it with what I need to learn for work was overwhelming, and it's not something I want to tackle right now. I'm working on building routines that will help me reach an average of 3 hours of learning per day, and I think adding the game jam would slow me down.
 
 Here's the plan: I'll continue working with Blender, but this time I'll focus more on character creation, from modeling to animation. This area gave me some trouble during the Ludumdare, so I want to improve my skills here. For my work, I need to advance in ASP.NET, deepen my understanding of domain-driven development, and learn more about its patterns.
 
-Lastly, there's the matter of finishing that game jam project. The deadline is on the 19th of October, and I have around 9 days thanks to a real-life commitments. Considering I can dedicate about an hour a day to it, that gives me roughly 9 hours to complete the game. It's a tight schedule, and I didn't calculate it before making the promise to finish it, but once I've committed, I'm determined to see it through.
+Additionally, during LudumDare, I used Trello, and I found it helpful for staying on track. So, I plan to use it for month-to-month planning of the knowledge I need to acquire. We'll see where it takes me.
 
 ### Reflection
 

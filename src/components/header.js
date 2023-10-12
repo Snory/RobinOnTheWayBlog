@@ -5,7 +5,7 @@ import {Link} from 'gatsby'
 const Header  = ({location, title}) => {
     const rootPath = `${__PATH_PREFIX__}/`
     const isRootPath = location.pathname === rootPath
-    const isHeaderPath = location.pathname === "/GameJams/" || location.pathname === "/Learning/" || location.pathname === "/Reports/"
+    const isHeaderPath = location.pathname === "/GameJams/" || location.pathname === "/Reports/" || location.pathname === "/Research/" || location.pathname === "/Practise/"
 
     let header
 
@@ -27,7 +27,7 @@ const Header  = ({location, title}) => {
       return (
         <header className="global-header">{header}
             <div>
-            <Link to="/GameJams">GameJams</Link> | <Link to="/Reports">Reports</Link>
+            <Link to="/GameJams">GameJams</Link> | <Link to="/Reports">Reports</Link> | <Link to="/Research">Research</Link> | <Link to="/Practise">Practise</Link>
             </div>
         
         </header>
