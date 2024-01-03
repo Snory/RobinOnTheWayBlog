@@ -40,7 +40,6 @@ And where to get an idea how to create proper running, walking or jumping animat
 
 ![runimanim](./runningbackwards.png "Running backwards from youtube") 
 
-
 #### Unity
 
 It is going to big suprise, but the main goal for Unity was well, to create a game for GameOff gamejam. I managed put some basic ground for the game. It was a dodge ball game with zen master in zen garden. But I did not finished thanks to the new stress in the work. I played a lot with the FSM, at first I created FMS for the ball itself and then reworks the player script to FSM also, because I wanted to use the same components for enemies and separating the states of player also helps to align them with animations from Blender. It made sense, but the cost was too high for LudumDare, it did not bring anything to the table which I needed right away. Anyway, I have to finish the FSM in the template and write a little guide for it, so I can use it next time without working on the whole stuff again.
