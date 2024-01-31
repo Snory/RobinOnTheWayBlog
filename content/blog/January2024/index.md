@@ -1,6 +1,6 @@
 ---
 title: To report on January 2024
-date: "2023-12-01T10:00:00.000Z"
+date: "2024-01-01T10:00:00.000Z"
 description: "Join me as I reflect on the knowledge gained, the challenges conquered, and the hours dedicated to learning various subjects during the month of January 2024"
 tags: ["Reports"]
 ---
@@ -30,4 +30,17 @@ Well, this is it, simple as that.
 
 
 ### Reflection
+
+January wasn't as productive in pursuing my personal goals; rather, it had a heavy focus on work-related tasks. I spent around 19 hours on learning, of which only two hours were related to my hobbies. In the first part of the month, I dedicated my time to a technical analysis for a microservice related to the "accounting office" where people submit requests for accountants. Given our commitment to domain-driven development in the new services, I needed to familiarize myself with it. In total, I read around three books:
+
+- Domain-Driven Design Distilled: bu Vernon, Vaughn
+- Domain-Driven Design: by Evans, Chris
+- Implementing Domain-Driven Design: by Vernon, Vaughn
+
+If I may make a suggestion, start with Evans' book, and after each chapter, explore the same concept in Vernon's Distilled, then move on to the book about implementing domain-driven design.
+
+Another work-related task was a course introducing C#, culminating in certification. While it didn't consume much time, it was a goal for January, and it's now accomplished — success.
+
+However, after completing these tasks, I had to dedicate a substantial number of hours to work. Working in the financial department, we faced an audit, requiring extensive document correction for compliance. This is a topic I plan to discuss during our retrospective. Many of these tasks were created almost two months before the audit, and with better planning, I could have prepared in advance, reducing the workload during the audit period. This was a risk, considering my experiences in December where I needed to prioritize relaxation due to health concerns. Nonetheless, I chose not to compromise the team, and it was the first time I had to put in such strenuous effort.
+
 
