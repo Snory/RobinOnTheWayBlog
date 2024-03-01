@@ -42,6 +42,6 @@ The remainder of my time was devoted to self-development and well-being, includi
 
 Overall, February was a month focused on work-related tasks instead of hobbies as I hoped for, but I still managed to make progress in my personal and hobby-related pursuits.
 
-![time](./timespent.png.png "Time spent")
+![time](./timespent.png "Time spent")
 
 
