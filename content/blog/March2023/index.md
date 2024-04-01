@@ -21,19 +21,12 @@ AS A. R. and T. are quite easy to know, I am going to focus only on S - specific
 
 So, here are the goals
 
-* Art
- * Write a research article about applying rigging to models which are usable inside of Unity
-* Finances
- * Have at least three selected invest funds to invest regulary
-* Programming
- * Learn about at least 4 different algorithms, preferably from the Grooking algorithm book
- * Prepare a project in Unity where character is going to receive all sortfs of information
-* Mind well being
- * Meditate at least 20 days in March for at least 15 minutes
-* Body well being
- * Do yoga at least for 20 days from Yoga with Adrien - 30 days challenge
-* Languages
- * Learn Hiragana and Katana with 90% precision
+* Art - Write a research article about applying rigging to models which are usable inside of Unity
+* Finances -  Have at least three selected invest funds to invest regulary
+* Programming - Learn about at least 4 different algorithms, preferably from the Grooking algorithm book
+* Mind well being - Meditate at least 20 days in March for at least 15 minutes
+* Body well being - Do yoga at least for 20 days from Yoga with Adrien - 30 days challenge
+* Languages - Learn Hiragana and Katana with 90% precision
 
 I have a book about conducting a research, so I am thinking about reading that one too, but it is not mandatory. 
 
