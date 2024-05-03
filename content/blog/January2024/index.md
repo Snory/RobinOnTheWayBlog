@@ -1,6 +1,6 @@
 ---
 title: To report on January 2024
-date: "2024-01-01T10:00:00.000Z"
+date: "2024-01-31T10:00:00.000Z"
 description: "Join me as I reflect on the knowledge gained, the challenges conquered, and the hours dedicated to learning various subjects during the month of January 2024"
 tags: ["Reports"]
 ---

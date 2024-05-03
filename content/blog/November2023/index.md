@@ -1,6 +1,6 @@
 ---
 title: To report on November 2023
-date: "2023-11-01T10:00:00.000Z"
+date: "2023-11-31T10:00:00.000Z"
 description: "Join me as I reflect on the knowledge gained, the challenges conquered, and the hours dedicated to learning various subjects during the month of November 2023"
 tags: ["Reports"]
 ---
